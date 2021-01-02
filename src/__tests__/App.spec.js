@@ -24,9 +24,9 @@ apiMock.onGet("repositories").reply(200, [
   {
     id: repositoryId,
     title: "Desafio React Native",
-    url: "https://github.com/josepholiveira",
+    url: "https://github.com/Flamilani",
     techs: ["React Native", "Node.js"],
-    likes: 0,
+    likes: 0
   },
 ]);
 
@@ -54,7 +54,7 @@ describe("Likes", () => {
       .reply(200, {
         id: repositoryId,
         title: "Desafio React Native",
-        url: "https://github.com/josepholiveira",
+        url: "https://github.com/Flamilani",
         techs: ["React Native", "Node.js"],
         likes: 1,
       });
@@ -72,7 +72,7 @@ describe("Likes", () => {
       .reply(200, {
         id: repositoryId,
         title: "Desafio React Native",
-        url: "https://github.com/josepholiveira",
+        url: "https://github.com/Flamilani",
         techs: ["React Native", "Node.js"],
         likes: 2,
       });
